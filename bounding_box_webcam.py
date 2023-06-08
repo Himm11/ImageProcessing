@@ -96,5 +96,7 @@ print("Duration :{:.2f} MB".format(duration_mb))
 resolution_mb = (width * height * file_size_mb) / (1024 * 1024)
 print("Resolution of video: {:.2f} MB".format(resolution_mb))
 
+
+
 # Destroy any remaining windows
 cv2.destroyAllWindows()
